@@ -1,0 +1,1 @@
+get-childitem *.jpg | foreach { rename-item $_ $_.Name.Replace("PDFtoJPG.me-", "") }
